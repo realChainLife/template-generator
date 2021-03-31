@@ -12,7 +12,7 @@ CSV.open(file, 'w') do |row|
 
   # 5:15:30:50
 
-  _distribution = [[1]*50, [2]*30, [3]*15, [4]*10, [5]*10].flatten
+  _distribution = [[1]*80, [2]*50, [3]*45, [4]*30, [5]*30].flatten
   _locations = [["San Francisco"]*8, ["Paris"]*5, ["London"]*3, ["Singapore"]*2, ["Melbourne"], ["Bengalore"]].flatten
 
   rows = []
